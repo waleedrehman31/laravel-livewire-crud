@@ -18,7 +18,7 @@
                 @enderror
             </div>
             <div class="d-grid gap-2">
-                <button wire:click.prevent="updatePost()" class="btn btn-success btn-block">Update</button>
+                <button wire:click.prevent="update_post()" class="btn btn-success btn-block">Update</button>
                 <button wire:click.prevent="cancelPost()" class="btn btn-secondary btn-block">Cancel</button>
             </div>
         </form>

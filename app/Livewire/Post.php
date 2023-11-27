@@ -32,7 +32,7 @@ class Post extends Component
         return view('livewire.post');
     }
 
-    public function addPost()
+    public function addNewPost()
     {
         $this->resetFields();
         $this->addPost = true;
@@ -73,7 +73,7 @@ class Post extends Component
         }
     }
 
-    public function updatePost()
+    public function update_post()
     {
         $this->validate();
         try {
