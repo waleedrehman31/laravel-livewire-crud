@@ -28,7 +28,7 @@ class Post extends Component
 
     public function render()
     {
-        $this->posts = Post::select('id', 'title', 'description')->get();
+        $this->posts = Posts::select('id', 'title', 'description')->get();
         return view('livewire.post');
     }
 
